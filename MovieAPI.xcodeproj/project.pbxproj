@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		150433EA2380F63C00C24E10 /* NewsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150433EA2380F63C00C24E10 /* MovieAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		150433ED2380F63C00C24E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		150433EF2380F63C00C24E10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		150433F12380F63C00C24E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		150433E12380F63B00C24E10 = {
 			isa = PBXGroup;
 			children = (
-				150433EC2380F63C00C24E10 /* NewsAPI */,
+				150433EC2380F63C00C24E10 /* MovieAPI */,
 				150433EB2380F63C00C24E10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		150433EB2380F63C00C24E10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				150433EA2380F63C00C24E10 /* NewsAPI.app */,
+				150433EA2380F63C00C24E10 /* MovieAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		150433EC2380F63C00C24E10 /* NewsAPI */ = {
+		150433EC2380F63C00C24E10 /* MovieAPI */ = {
 			isa = PBXGroup;
 			children = (
 				150433ED2380F63C00C24E10 /* AppDelegate.swift */,
@@ -76,15 +76,15 @@
 				15043405238A270B00C24E10 /* Movies.swift */,
 				15043407238A28E500C24E10 /* MoviesRequest.swift */,
 			);
-			path = NewsAPI;
+			path = MovieAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		150433E92380F63C00C24E10 /* NewsAPI */ = {
+		150433E92380F63C00C24E10 /* MovieAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 150433FE2380F64700C24E10 /* Build configuration list for PBXNativeTarget "NewsAPI" */;
+			buildConfigurationList = 150433FE2380F64700C24E10 /* Build configuration list for PBXNativeTarget "MovieAPI" */;
 			buildPhases = (
 				150433E62380F63C00C24E10 /* Sources */,
 				150433E72380F63C00C24E10 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = NewsAPI;
+			name = MovieAPI;
 			productName = NewsAPI;
-			productReference = 150433EA2380F63C00C24E10 /* NewsAPI.app */;
+			productReference = 150433EA2380F63C00C24E10 /* MovieAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 150433E52380F63C00C24E10 /* Build configuration list for PBXProject "NewsAPI" */;
+			buildConfigurationList = 150433E52380F63C00C24E10 /* Build configuration list for PBXProject "MovieAPI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				150433E92380F63C00C24E10 /* NewsAPI */,
+				150433E92380F63C00C24E10 /* MovieAPI */,
 			);
 		};
 /* End PBXProject section */
@@ -294,14 +294,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBR6R898LC;
-				INFOPLIST_FILE = NewsAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieAPI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Sample.NewsAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MovieAPI;
+				PRODUCT_NAME = MovieAPI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,14 +313,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBR6R898LC;
-				INFOPLIST_FILE = NewsAPI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MovieAPI/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Sample.NewsAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.MovieAPI;
+				PRODUCT_NAME = MovieAPI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		150433E52380F63C00C24E10 /* Build configuration list for PBXProject "NewsAPI" */ = {
+		150433E52380F63C00C24E10 /* Build configuration list for PBXProject "MovieAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150433FC2380F64700C24E10 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		150433FE2380F64700C24E10 /* Build configuration list for PBXNativeTarget "NewsAPI" */ = {
+		150433FE2380F64700C24E10 /* Build configuration list for PBXNativeTarget "MovieAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				150433FF2380F64700C24E10 /* Debug */,

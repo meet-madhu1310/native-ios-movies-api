@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NewsAPI.xcodeproj">
+      location = "self:/Users/admin/Desktop/Meet/iOS Swift/NewsAPI/MovieAPI.xcodeproj">
    </FileRef>
 </Workspace>
