@@ -16,7 +16,7 @@ enum MoviesErrpr: Error {
 struct MoviesRequest {
     
     let apiURL: URL
-    let API_KEY = "8367b1854dccedcfc9001204de735470"
+    let API_KEY = "YOUR_API_KEY"
     
     init() {
         let apiString = "https://api.themoviedb.org/3/movie/top_rated?api_key=\(API_KEY)&language=en-US&page=1"
