@@ -78,8 +78,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let movie = listOfMovies[indexPath.row]
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell") as? NewsTableViewCell {
-            cell.newsTitleLabel.text = movie.title
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell") as? MovieTableViewCell {
+            cell.movieTitleLabel.text = movie.title
             
             //UI CONTENT
             cell.contentView.layer.cornerRadius = 20
@@ -97,7 +97,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
                     print("Image error: ", error!)
                 }
                 DispatchQueue.main.async {
-                    cell.newsImageView.image = UIImage(data: data!)
+                    cell.movieImageView.image = UIImage(data: data!)
                 }
             }).resume()
                 

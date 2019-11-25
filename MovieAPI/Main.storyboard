@@ -10,7 +10,7 @@
         <!--Top Rated Movies-->
         <scene sceneID="TBU-89-3DQ">
             <objects>
-                <viewController id="QXb-9h-fZ5" customClass="ViewController" customModule="NewsAPI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QXb-9h-fZ5" customClass="ViewController" customModule="MovieAPI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8UT-YD-HVm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,7 +19,7 @@
                                 <rect key="frame" x="5" y="49" width="404" height="687"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="300" id="brm-AE-V7g" customClass="NewsTableViewCell" customModule="NewsAPI" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="300" id="brm-AE-V7g" customClass="MovieTableViewCell" customModule="MovieAPI" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="404" height="300"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="brm-AE-V7g" id="Nsg-qS-9Yt">
@@ -50,8 +50,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="newsImageView" destination="yMy-gz-53G" id="0kw-YX-3wH"/>
-                                            <outlet property="newsTitleLabel" destination="5JH-Ff-joS" id="QKw-dd-pY2"/>
+                                            <outlet property="movieImageView" destination="yMy-gz-53G" id="BPy-3v-7cS"/>
+                                            <outlet property="movieTitleLabel" destination="5JH-Ff-joS" id="uB1-8j-OBK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -83,7 +83,7 @@
         <!--Single Movie View Controller-->
         <scene sceneID="9Vi-Vr-CWR">
             <objects>
-                <viewController id="vnY-7c-26s" customClass="SingleMovieViewController" customModule="NewsAPI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vnY-7c-26s" customClass="SingleMovieViewController" customModule="MovieAPI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CBA-Qr-Udz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
